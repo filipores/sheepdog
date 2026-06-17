@@ -1,0 +1,21 @@
+{
+  "name": "sheepdog",
+  "interface": {
+    "displayName": "Sheepdog"
+  },
+  "plugins": [
+    {
+      "name": "sheepdog",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/zipPM/sheepdog.git",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+description = "Show Sheepdog command and law quick reference"
+prompt = "Show sheepdog-help: concise command list, boundary laws 1-8, stop command, and accepted boundary-debt marker format."

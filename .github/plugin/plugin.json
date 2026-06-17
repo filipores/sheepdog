@@ -1,0 +1,8 @@
+{
+  "name": "sheepdog",
+  "version": "0.1.0",
+  "description": "Boundary-guard mode for AI agents. Does this responsibility belong in this field?",
+  "homepage": "https://github.com/zipPM/sheepdog",
+  "repository": "https://github.com/zipPM/sheepdog",
+  "license": "MIT"
+}

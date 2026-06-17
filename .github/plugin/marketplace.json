@@ -1,0 +1,6 @@
+{
+  "name": "sheepdog",
+  "displayName": "Sheepdog",
+  "description": "Boundary-guard mode for AI agents. Blocks misplaced responsibility and agentic architecture drift.",
+  "repository": "https://github.com/zipPM/sheepdog"
+}

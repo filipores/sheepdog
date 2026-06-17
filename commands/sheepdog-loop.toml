@@ -1,0 +1,2 @@
+description = "Run Sheepdog review/fix/review loop"
+prompt = "Run sheepdog-loop on the current diff. Review for boundary-law violations, apply only the smallest safe accepted fixes, validate, and review again until clean, stopped, or capped. Ask before accepting boundary debt or broad architecture decisions."

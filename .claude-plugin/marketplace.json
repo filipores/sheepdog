@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "sheepdog",
+  "description": "Boundary-guard mode for AI agents. Does this responsibility belong in this field?",
+  "owner": {
+    "name": "zipPM",
+    "url": "https://github.com/zipPM"
+  },
+  "plugins": [
+    {
+      "name": "sheepdog",
+      "description": "Blocks agentic architecture drift: misplaced responsibilities, layer shortcuts, god-orchestrator growth, and side-effect leaks.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

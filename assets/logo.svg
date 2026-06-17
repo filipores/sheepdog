@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="Sheepdog">
+  <rect width="256" height="256" rx="48" fill="#111111"/>
+  <circle cx="89" cy="96" r="27" fill="#f4f4f0"/>
+  <circle cx="153" cy="94" r="31" fill="#f4f4f0"/>
+  <circle cx="185" cy="112" r="24" fill="#f4f4f0"/>
+  <path d="M57 151c31 21 74 29 128 14" fill="none" stroke="#f4f4f0" stroke-width="18" stroke-linecap="round"/>
+  <path d="M103 82c17 27 48 39 90 34" fill="none" stroke="#111111" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="111" cy="82" r="6" fill="#111111"/>
+</svg>

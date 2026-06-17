@@ -1,0 +1,2 @@
+description = "Harvest sheepdog: accepted boundary-debt markers"
+prompt = "Harvest every `sheepdog:` accepted boundary debt marker in this repository. Grep for comment markers, skipping node_modules/.git/build output. Expected marker: `sheepdog: accepted boundary debt, <reason>; home: <module/layer>; trigger: <when to move>`. Group by file, tag no-reason/no-home/no-trigger, and end with marker counts. Report only, change nothing."

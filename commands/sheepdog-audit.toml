@@ -1,0 +1,2 @@
+description = "Audit the whole repo for Sheepdog boundary drift"
+prompt = "Audit the entire repository for sheepdog boundary drift. Report only; do not edit. Rank findings highest risk first: <severity> <tag>: <what drifted>. home: <right field>. evidence: <path:L>. move: <smallest safe first extraction>. End with summary counts and the first move. If none: 'All sheep in field. Ship.'"

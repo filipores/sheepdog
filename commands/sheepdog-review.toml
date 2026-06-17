@@ -1,0 +1,2 @@
+description = "Review changes for Sheepdog boundary-law violations"
+prompt = "Review the current code changes for sheepdog boundary-law violations only. Report only; do not edit. One finding per line: <file>:L<line>: law<n> <tag>: <stray sheep>. wrong field: <current>. home: <right field>. move: <smallest safe move>. End with 'verdict: BLOCKED (<N> boundary leaks)' or 'All sheep in field. Ship.'"

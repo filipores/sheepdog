@@ -1,0 +1,2 @@
+description = "Set or report Sheepdog boundary-guard mode (on/off/status)"
+prompt = "Switch to sheepdog {{args}} mode. If no argument is specified, turn sheepdog on. Sheepdog asks: does this responsibility belong in this field? Block misplaced responsibility, layer shortcuts, god-orchestrator growth, side-effect leaks, persistence leaks, parallel implementations, dependency-direction violations, and new responsibility in god files."
