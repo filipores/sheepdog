@@ -3,8 +3,8 @@
   "name": "sheepdog",
   "description": "Boundary-guard mode for AI agents. Does this responsibility belong in this field?",
   "owner": {
-    "name": "zipPM",
-    "url": "https://github.com/zipPM"
+    "name": "filipores",
+    "url": "https://github.com/filipores"
   },
   "plugins": [
     {

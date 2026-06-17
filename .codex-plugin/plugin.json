@@ -3,11 +3,11 @@
   "version": "0.1.0",
   "description": "Boundary-guard mode for AI agents. Blocks misplaced responsibility, god-orchestrator growth, layer shortcuts, and side-effect leaks.",
   "author": {
-    "name": "zipPM",
-    "url": "https://github.com/zipPM"
+    "name": "filipores",
+    "url": "https://github.com/filipores"
   },
-  "homepage": "https://github.com/zipPM/sheepdog",
-  "repository": "https://github.com/zipPM/sheepdog",
+  "homepage": "https://github.com/filipores/sheepdog",
+  "repository": "https://github.com/filipores/sheepdog",
   "license": "MIT",
   "keywords": ["architecture", "agentic-coding", "boundary-guard", "code-review"],
   "skills": "./skills/",
@@ -15,10 +15,10 @@
     "displayName": "Sheepdog",
     "shortDescription": "Boundary guard for AI agents",
     "longDescription": "Blocks misplaced responsibility, layer shortcuts, god-orchestrator growth, and side-effect leaks before AI-generated code drifts across module boundaries.",
-    "developerName": "zipPM",
+    "developerName": "filipores",
     "category": "Productivity",
     "capabilities": ["Instructions", "Lifecycle hooks"],
-    "websiteURL": "https://github.com/zipPM/sheepdog",
+    "websiteURL": "https://github.com/filipores/sheepdog",
     "defaultPrompt": [
       "Use Sheepdog mode for this task.",
       "Review this diff for boundary-law violations.",

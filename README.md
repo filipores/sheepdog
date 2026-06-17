@@ -83,14 +83,14 @@ No reason, no home, no trigger = not accepted debt.
 ### Claude Code
 
 ```text
-/plugin marketplace add zipPM/sheepdog
+/plugin marketplace add filipores/sheepdog
 /plugin install sheepdog@sheepdog
 ```
 
 ### Codex
 
 ```bash
-codex plugin marketplace add zipPM/sheepdog
+codex plugin marketplace add filipores/sheepdog
 codex
 ```
 
@@ -100,7 +100,7 @@ trust hooks, then start a new thread.
 ### Pi agent harness
 
 ```bash
-pi install git:github.com/zipPM/sheepdog
+pi install git:github.com/filipores/sheepdog
 ```
 
 ## Development

@@ -8,7 +8,7 @@
       "name": "sheepdog",
       "source": {
         "source": "url",
-        "url": "https://github.com/zipPM/sheepdog.git",
+        "url": "https://github.com/filipores/sheepdog.git",
         "ref": "main"
       },
       "policy": {
