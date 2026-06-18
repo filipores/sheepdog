@@ -4,6 +4,7 @@ import { parseSheepdogCommand, resolveSessionMode } from '../index.js';
 
 test('parse sheepdog commands', () => {
   assert.deepEqual(parseSheepdogCommand(''), { type: 'set-mode', mode: 'on' });
+  assert.deepEqual(parseSheepdogCommand('', 'off'), { type: 'set-mode', mode: 'on' });
   assert.deepEqual(parseSheepdogCommand('off'), { type: 'set-mode', mode: 'off' });
   assert.deepEqual(parseSheepdogCommand('status'), { type: 'status' });
   assert.deepEqual(parseSheepdogCommand('default off'), { type: 'set-default', mode: 'off' });

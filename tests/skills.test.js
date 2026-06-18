@@ -15,7 +15,7 @@ test('all skills have valid frontmatter', () => {
 });
 
 test('sheepdog instructions include all boundary laws', () => {
-  const { getSheepdogInstructions } = require('../hooks/sheepdog-instructions');
+  const { getSheepdogInstructions } = require('../lib/sheepdog-instructions');
   const text = getSheepdogInstructions();
   for (const phrase of [
     'Entrypoint Law',

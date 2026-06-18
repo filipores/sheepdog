@@ -1,25 +1,5 @@
-const fs = require('fs');
-const path = require('path');
-const { getClaudeDir } = require('./sheepdog-config');
-
-const STATE_FILE = '.sheepdog-active';
 const isCopilot = Boolean(process.env.COPILOT_PLUGIN_DATA);
 const isCodex = !isCopilot && Boolean(process.env.PLUGIN_DATA);
-
-let stateDir = getClaudeDir();
-if (isCodex) stateDir = process.env.PLUGIN_DATA;
-if (isCopilot) stateDir = process.env.COPILOT_PLUGIN_DATA;
-
-const statePath = path.join(stateDir, STATE_FILE);
-
-function setMode(mode) {
-  fs.mkdirSync(path.dirname(statePath), { recursive: true });
-  fs.writeFileSync(statePath, mode);
-}
-
-function clearMode() {
-  try { fs.unlinkSync(statePath); } catch (_e) {}
-}
 
 function writeHookOutput(event, mode, context = '') {
   if (isCopilot) {
@@ -41,9 +21,7 @@ function writeHookOutput(event, mode, context = '') {
 }
 
 module.exports = {
-  clearMode,
   isCodex,
   isCopilot,
-  setMode,
   writeHookOutput,
 };

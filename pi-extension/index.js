@@ -5,9 +5,10 @@ const {
   DEFAULT_MODE,
   getDefaultMode,
   normalizeMode,
+  parseSheepdogCommand,
   writeDefaultMode,
-} = require("../hooks/sheepdog-config.js");
-const { getSheepdogInstructions } = require("../hooks/sheepdog-instructions.js");
+} = require("../lib/sheepdog-config.js");
+const { getSheepdogInstructions } = require("../lib/sheepdog-instructions.js");
 
 export const readDefaultMode = getDefaultMode;
 export { getSheepdogInstructions, writeDefaultMode };
@@ -26,23 +27,7 @@ export function resolveSessionMode(entries, fallbackMode = DEFAULT_MODE) {
   return fallback;
 }
 
-export function parseSheepdogCommand(text, defaultMode = DEFAULT_MODE) {
-  const fallback = normalizeMode(defaultMode) || DEFAULT_MODE;
-  const normalizedText = String(text || "").trim().toLowerCase();
-
-  if (!normalizedText) return { type: "set-mode", mode: fallback === "off" ? "on" : fallback };
-
-  const [primary, secondary] = normalizedText.split(/\s+/);
-  if (primary === "status") return { type: "status" };
-
-  if (primary === "default") {
-    const mode = normalizeMode(secondary);
-    return mode ? { type: "set-default", mode } : { type: "invalid", reason: "invalid-default-mode" };
-  }
-
-  const mode = normalizeMode(primary);
-  return mode ? { type: "set-mode", mode } : { type: "invalid", reason: "invalid-mode", mode: primary };
-}
+export { parseSheepdogCommand };
 
 export default function sheepdogExtension(pi) {
   let currentMode = DEFAULT_MODE;
