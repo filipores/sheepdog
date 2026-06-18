@@ -1,7 +1,16 @@
+<p align="center">
+  <img src="assets/logo.svg" width="180" alt="Sheepdog">
+</p>
+
 <h1 align="center">Sheepdog</h1>
 
 <p align="center">
-  <em>He says nothing. One look. The stray sheep goes home.</em>
+  <em>He catches every stray sheep.</em>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/version-0.1.0-111111?style=flat-square" alt="Version 0.1.0">
+  <img src="https://img.shields.io/badge/license-MIT-111111?style=flat-square" alt="MIT license">
 </p>
 
 ---
