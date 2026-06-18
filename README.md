@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.svg" width="180" alt="Sheepdog">
+  <img src="assets/social-preview.png" width="640" alt="Sheepdog">
 </p>
 
 <h1 align="center">Sheepdog</h1>
