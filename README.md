@@ -21,6 +21,8 @@ where it belongs.
 
 Sheepdog puts that stare inside your AI agent.
 
+Inspired by [Ponytail](https://github.com/DietrichGebert/ponytail).
+
 Ponytail asks: **Does this need to exist?**  
 Sheepdog asks: **Does this belong here?**
 
